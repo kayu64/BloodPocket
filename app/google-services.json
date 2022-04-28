@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493806780752",
+    "project_id": "bloodpocket-667b1",
+    "storage_bucket": "bloodpocket-667b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493806780752:android:45812297ca4556958b2c55",
+        "android_client_info": {
+          "package_name": "com.example.bloodpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493806780752-0s25surk8v40n48khsfd3q0i12g1trn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtx2G8ZEdz-OuIs-LzFYZgXJ-X1TgHxGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493806780752-0s25surk8v40n48khsfd3q0i12g1trn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

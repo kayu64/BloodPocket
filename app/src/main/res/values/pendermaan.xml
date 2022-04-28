@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jenisPendermaaan">
+    <item>Pendermaan Penuh</item>
+    <item>Pendermaan Apheresis</item>
+</string-array>
+    <string-array name="pusatPendermaaan">
+        <item>PDN Kuala Lumpur</item>
+        <item>Suite Derma Darah Puspanita</item>
+        <item>Suite Derma Darah MidValley Megamall</item>
+    </string-array>
+
+    
+</resources>

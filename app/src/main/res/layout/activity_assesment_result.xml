@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssesmentResult">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Keputusan Pemeriksaan"
+        android:textStyle="bold"
+        android:textColor="#666666"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terima Kasih"
+        android:letterSpacing=".1"
+        android:textStyle="bold"
+        android:textColor="#666666"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Anda telah melengkapkan Borang Pemeriksaan"
+        android:letterSpacing=".1"
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tahniah. Anda Layak menderma darah pada Hari ini"
+            android:letterSpacing=".1"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="30dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+            android:id="@+id/donationType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Sila Pilih Jenis pendermaan"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:text="Pendermaan Penuh" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+            android:id="@+id/donationLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Sila Pilih Pusat pendermaan"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:text="PDN Kuala Lumpur" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        <!-- <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:gravity="center">
+
+             <TextView
+                 android:id="@+id/scoreTV"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="0"
+                 android:letterSpacing=".2"
+                 android:textColor="#666666"
+                 android:textSize="30sp"
+                 android:textStyle="bold"/>
+             <TextView
+                 android:id="@+id/totalScoreTV"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="/10"
+                 android:letterSpacing=".2"
+                 android:textColor="#666666"
+                 android:textSize="30sp"
+                 android:textStyle="bold"/>
+
+         </LinearLayout> -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:weightSum="2"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appointmentBtn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_centerHorizontal="true"
+                android:text="Set Temujanji"
+                android:textAllCaps="false" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/returnBtn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_centerHorizontal="true"
+                android:text="Kembali"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
