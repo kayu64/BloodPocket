@@ -4,35 +4,51 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable-anydpi-v24/profile_image.xml" value="0.2705" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/avatar.xml" value="0.3035" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/bg_edittext.xml" value="0.2705" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/check_icon.xml" value="0.2355" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.248" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_featured_video_24.xml" value="0.2665" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2665" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_settings_accessibility_24.xml" value="0.2665" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_transgender_24.xml" value="0.2665" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_video_call_24.xml" value="0.1305" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_baseline_water_drop_24.xml" value="0.2665" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_email.xml" value="0.3035" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/ic_lock.xml" value="0.3035" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/round_back_primary_100.xml" value="0.307" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/round_back_selected_option.xml" value="0.162" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/round_back_white50_10.xml" value="0.307" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/round_back_white50_100.xml" value="0.307" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/round_border.xml" value="0.3035" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/drawable/wave.xml" value="0.3035" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_appointment.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_assesment.xml" value="0.22" />
-        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_assesment_feedback_dialog.xml" value="0.3625" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_assesment_feedback_dialog.xml" value="0.3324607329842932" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_assesment_result.xml" value="0.25" />
-        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_edit_profile.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_faq.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_info.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_list.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_login.xml" value="0.3625" />
-        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_profile.xml" value="0.32865907099035935" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_record.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_reset_password.xml" value="0.3625" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_review.xml" value="0.25" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_review_details.xml" value="0.25" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/activity_start.xml" value="0.18" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/content_scrolling.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/dropdown_item.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/instructions_dialog_layout.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/model_layout.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/reset_pop.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/row.xml" value="0.22" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/layout/scrollable.xml" value="0.25" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/menu/menu_assesment.xml" value="0.3625" />
         <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/menu/option_menu.xml" value="0.25" />
+        <entry key="..\:/Users/faizfahmi/AndroidStudioProjects/BloodPocket/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.204" />
       </map>
     </option>
   </component>
