@@ -43,6 +43,8 @@ public class List extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Rekod Pendermaan Darah");
 
         //init firestore
         db = FirebaseFirestore.getInstance();
@@ -53,7 +55,7 @@ public class List extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(layoutManager);
 
-        mAddBtn = findViewById(R.id.addBtn);
+        //mAddBtn = findViewById(R.id.addBtn);
         pd = new ProgressDialog(this);
 
         user = FirebaseAuth.getInstance().getCurrentUser();
@@ -67,13 +69,13 @@ public class List extends AppCompatActivity {
 
         showData();
 
-        mAddBtn.setOnClickListener(new View.OnClickListener() {
+       /* mAddBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(List.this, Record.class));
                 finish();
             }
-        });
+        }); */
 
     }
 
@@ -94,7 +96,8 @@ public class List extends AppCompatActivity {
                                     doc.getDate("datetime_created"),
                                     doc.getString("userid"),
                                     doc.getString("pusat"),
-                                    doc.getString("status"));
+                                    doc.getString("status"),
+                                    doc.getString("type"));
                             modelList.add(model);
                         }
                         //adapter

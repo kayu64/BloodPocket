@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -42,7 +40,8 @@ public class Assesment extends AppCompatActivity {
     private TextView currentQuestion;
 
     //creating database reference from  URL
-    private final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://bloodpocket-667b1-default-rtdb.firebaseio.com/");
+    //private final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://bloodpocket-667b1-default-rtdb.firebaseio.com/");
+    private final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
 
     //current question position by default 0 (first question)
     private int currentQuestionPosition = 0;
@@ -54,6 +53,8 @@ public class Assesment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_assesment);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Ujian melayakan menderma");
 
         assesmentSv = findViewById(R.id.assesmentSv);
 
@@ -89,6 +90,7 @@ public class Assesment extends AppCompatActivity {
 
 
         //getting data(questions)from firebase
+        databaseReference.keepSynced(true);
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -209,11 +211,23 @@ public class Assesment extends AppCompatActivity {
                         }
 
                     }
-                    if (currentQuestionPosition == 1 || currentQuestionPosition == 4){
+
+                    if (currentQuestionPosition == 1){
                         if(selectedOption == 2){
 
                             selectedOption = 0;
                             currentQuestionPosition = 3;
+
+                        }
+
+                    }
+
+                    if (currentQuestionPosition == 4){
+                        if(selectedOption == 2){
+
+                            bundle.putString("case", condition);
+                            dialogFragment.setArguments(bundle);
+                            dialogFragment.show((Assesment.this).getSupportFragmentManager(),"Image Dialog");
 
                         }
 

@@ -1,52 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/startSv"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="24dp"
-        android:text="Anda DIMINTA UNTUK TIDAK MENDERMA DARAH jika anda:   tahu atau syak diri anda dihidapi HIV, penghidap/pembawa Hepatitis B atau Hepatitis C, atau dijangkiti Sifilis atau Penyakit Kelamin yang lain.  mengamal atau pernah mengamalkan gaya hidup BERTUKAR-TUKAR PASANGAN SEKS  lelaki yang pernah melakukan hubungan seks dengan lelaki lain (HOMOSEKSUAL/BISEKSUAL)  pernah membayar atau menerima bayaran untuk hubungan seks  pernah melakukan hubungan seks dengan pekerja seks komersil (pelacur) pernah mengambil dadah terlarang secara suntikan  pernah melakukan hubungan seks dengan sesiapa daripada mana-mana golongan di atas   Anda juga diminta supaya JANGAN menderma darah dengan tujuan untuk menguji darah anda. Ujian darah boleh dilakukan di mana-mana Klinik Kesihatan yang berhampiran. Jika anda mempunyai sebarang soalan, sila bertemu Pegawai Perubatan bertugas untuk bantuan."
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.354"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        tools:context=".StartActivity">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="24dp"
-        android:text="Terima kasih kerana dengan sukarela tampil untuk menderma darah anda. Darah yang anda dermakan dapat membantu menyelamatkan nyawa Kami sentiasa berusaha memastikan darah yang diberi kepada pesakit adalah selamat. Untuk itu semua darah yang didermakan akan diuji untuk mengesan jangkitan Hepatitis B dan C, HIV dan Sifilis. Walaubagaimanapun, ada kalanya ujian-ujian ini gagal mengesan darah yang baru sahaja dijangkiti. Akibatnya darah yang dijangkiti ini mungkin akan diberi kepada pesakit tanpa disedari. Oleh sebab itu, bagi membantu kami memastikan darah yang didermakan adalah selamat untuk digunakan, anda diminta untuk membaca dengan teliti kenyataan di bawah sebelum anda menderma darah."
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginHorizontal="14dp"
+            app:srcCompat="@drawable/kiteria" />
 
-    <Button
-        android:id="@+id/startAssesmentBtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="32dp"
-        android:text="Mula"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <Button
+            android:id="@+id/startAssesmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="710dp"
+            android:gravity="center"
+            android:text="Mula"
+            android:textAllCaps="false" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</ScrollView>

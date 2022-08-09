@@ -11,6 +11,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     TextView mTitleTv, mDescriptionTv, mDescription2Tv;
     View mView;
 
+
     public ViewHolder(@NonNull View itemView) {
         super(itemView);
 

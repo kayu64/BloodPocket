@@ -51,6 +51,8 @@ public class AssesmentResult extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_assesment_result);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Janji Temu");
 
        // final TextView scoreTV = findViewById(R.id.scoreTV);
         //final TextView totalScoreTV = findViewById(R.id.totalScoreTV);
@@ -199,6 +201,9 @@ public class AssesmentResult extends AppCompatActivity {
 
                         pd.dismiss();
                         Toast.makeText(AssesmentResult.this, "Uploaded...", Toast.LENGTH_SHORT).show();
+
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        finish();
 
                     }
                 })

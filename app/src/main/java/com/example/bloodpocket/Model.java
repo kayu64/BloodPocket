@@ -4,18 +4,19 @@ import java.util.Date;
 
 public class Model {
 
-    String userid, id, pusat, status;
+    String userid, id, pusat, status, type;
     Date dateTime;
 
     public Model() {
     }
 
-    public Model(String id, Date dateTime, String userid, String pusat, String status) {
+    public Model(String id, Date dateTime, String userid, String pusat, String status, String type) {
         this.id = id;
         this.dateTime = dateTime;
         this.userid = userid;
         this.pusat = pusat;
         this.status = status;
+        this.type = type;
     }
 
     public String getId() {
@@ -44,6 +45,14 @@ public class Model {
 
     public String getStatus() {
         return status;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public void setStatus(String status) {

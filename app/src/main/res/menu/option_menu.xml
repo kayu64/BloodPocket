@@ -4,4 +4,7 @@
     <item
         android:id="@+id/resetUserPassword"
         android:title="Tukar Kata Laluan" />
+    <item
+        android:id="@+id/logout"
+        android:title="Log Keluar" />
 </menu>
